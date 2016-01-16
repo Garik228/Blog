@@ -4,7 +4,7 @@
 
        $link = db_connect();
        $categories = categories_all($link);
-        $blogname = "My site";
+        $blogname = "My blog site";
 
 
        include("views/tpl_categories.php");
